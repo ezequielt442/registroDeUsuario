@@ -1,9 +1,7 @@
-// Función para verificar si una contraseña cumple con los requisitos
+
 function esContraseñaValida(contraseña) {
     return contraseña && contraseña.length >= 8 && /[A-Z]/.test(contraseña) && /\d/.test(contraseña);
   }
-  
-  // Función para registrar un usuario
   function registrarUsuario(event) {
     event.preventDefault();
     const nombreUsuario = document.getElementById('nombreUsuario').value;
@@ -16,7 +14,7 @@ function esContraseñaValida(contraseña) {
     }
   }
   
-  // Agregar un listener al formulario para manejar el registro
+ 
   const formulario = document.getElementById('registroForm');
   formulario.addEventListener('submit', registrarUsuario);
   

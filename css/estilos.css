@@ -38,13 +38,6 @@ input[type="password"] {
     text-align: center;
 } 
 
-/* label, input[type="text"], input[type="password"] {
-    display: block;
-    margin: 10px auto; 
-    text-align: center; 
-    width: 80%;
-}  */
-
 button {
     background-color: #007BFF;
     color: #fff;
